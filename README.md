@@ -1,6 +1,6 @@
 # nextjs-taliwind-Hulu
 
--[https://nextjs-taliwind-hulu.vercel.app/](https://nextjs-taliwind-hulu.vercel.app/)
+- [https://nextjs-taliwind-hulu.vercel.app/](https://nextjs-taliwind-hulu.vercel.app/)
 
 - [nextjs](https://nextjs.org/)
 - [tailwindcss](https://tailwindcss.com/)
