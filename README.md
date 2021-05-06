@@ -94,3 +94,5 @@ const Thumbnail = forwardRef(({ result }, ref) => {
 	return <div ref={ref}></div>;
 });
 ```
+
+## [Deploy](https://vercel.com/)
