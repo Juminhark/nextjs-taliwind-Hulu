@@ -70,3 +70,27 @@ export default Nav;
 ```js
 <div class="overflow-x-scroll ...">QrLmmW69vMQD...</div>
 ```
+
+## [react-flip-move](https://www.npmjs.com/package/react-flip-move)
+
+```sh
+> yarn add react-flip-move
+```
+
+```js
+// Results.js
+import FlipMove from 'react-flip-move';
+
+<FlipMove>
+	{results.map((result) => (
+		<Thumbnail key={result.id} result={result} />
+	))}
+</FlipMove>;
+
+// Thumbnail.js
+import { forwardRef } from 'react';
+
+const Thumbnail = forwardRef(({ result }, ref) => {
+	return <div ref={ref}></div>;
+});
+```
